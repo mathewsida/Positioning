@@ -1,9 +1,10 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
 html {
-    background-color: lightgray;
+    background-color: #0145d6;
     font-family: 'Quicksand', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
@@ -15,6 +16,7 @@ html {
 }
 
 h1 {
+    font-family: 'Courgette', cursive;
     font-weight: normal;
     margin: auto;
     background: #fff;
@@ -37,13 +39,13 @@ h2,h3 {
 }
 
 a {
-    color:darkcyan;
+    color:#D8F8B7;
     text-decoration: none;
 }
 
 a:hover {
-    color: whitesmoke;
-    background-color: darkcyan;
+    color: #FF9A8C;
+    background-color: #D8F8B7;
     text-decoration: none;
 }
 
